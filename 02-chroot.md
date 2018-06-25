@@ -29,6 +29,7 @@ $ ps aux | grep top
 
 Since we're running `chroot` with `sudo`, we can kill the `top` process
 ```sh
+$ whoami
 $ kill <top pid>
 ```
 
